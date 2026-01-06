@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart ADD"/>
+        <attribute name="authors" value="Hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:26:53 AM"/>
+        <attribute name="created" value="SHA7TEFQVE9QLUlINTVUVkVOOzIwMjYtMDEtMDY7MDk6NDM6MDYgQU07MjUyOQ=="/>
+        <attribute name="edited" value="SHA7TEFQVE9QLUlINTVUVkVOOzIwMjYtMDEtMDY7MTA6MjY6NTMgQU07NzsyNjM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <if expression="A&gt;B">
+                <then>
+                    <output expression="A&gt;B" newline="True"/>
+                </then>
+                <else>
+                    <output expression="A&gt;B" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
